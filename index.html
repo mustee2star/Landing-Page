@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/d239cac0a2.js" crossorigin="anonymous" ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rosario&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Mustee</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <a href="#" style="text-decoration: none">
+          <div class="img-container">
+            <img
+              id="header-img"
+              src="https://assets.codepen.io/4021828/open_books_logo.png"
+              alt="open book company logo"
+            />
+            <span id="logo-text">MUSTEE</span>
+          </div>
+        </a>
+        <div class="nav-links">
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li>
+            <a href="#register" class="nav-link">Register</a>
+          </li>
+        </div>
+      </nav>
+    </header>
+    <div class="landing">
+      <div class="landing-content-email">
+        <h1>Mustee Tech</h1>
+        <p>Making your journey to Tech easier.</p>
+        <form id="form" action="">
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required/>
+          <input type="submit" id="submit" />
+        </form>
+      </div>
+      <div class="landing-content-image">
+        <img src="/assets/img/img3.jpg" style="border-radius: 20px; height: 300px;">
+      </div>
+    </div>
+    <section class="features" id="about">
+      <div class="features-content premium">
+        <div>
+          <img src="/assets/img/web.jpg" style="border-radius: 30px;" alt="">
+          <h2 class="icon-title">Web Developer</h2>
+        </div>
+        <p class="icon-text">
+            A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server.
+        </p>
+      </div>
+      <div class="features-content shipping">
+        <div>
+          <img src="/assets/img/data.jpg" style="border-radius: 30px;" alt="">
+          <h2 class="icon-title">Data Analysis</h2>
+        </div>
+        <p class="icon-text">
+            A data analyst is responsible for collecting, cleaning, and analyzing data that can be used to improve business decisions. They must be able to effectively communicate their findings to those who will make the decisions. Data analysts typically have a strong background in mathematics and computer science.
+        </p>
+      </div>
+      <div class="features-content quality">
+        <div>
+         <img src="/assets/img/digital.jpg" style="border-radius: 30px;" alt="">
+          <h2 class="icon-title">Digital Analysis</h2>
+        </div>
+        <p class="icon-text">
+            Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel.
+        </p>
+      </div>
+    </section>
+    <section class="video" id="services">
+      <h2 style="color: #fff; font-size: 2rem">Other Products and Services</h2>
+      <br />
+      <div class="video-section">
+        <video id="video" width="40%" height="40%" controls>
+          <source
+            src="https://assets.codepen.io/4021828/Video+Inside+A+Library.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <video width="40%" height="40%" controls>
+          <source
+            src="https://assets.codepen.io/4021828/Pexels+Videos+3444.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+    <section class="pricing" id="register">
+      <div class="pricing-card">
+        <form action="">
+          <div>
+            <h3>Register</h3>
+           <span>Full name</span>
+           <input type="name" placeholder="Full name" required>
+           <span>Email Address</span>
+           <input type="email" placeholder="Email Address" required>
+           <span>Password</span>
+           <input type="password" placeholder="Password" required>
+          </div>
+          <div class="">
+              <button>Submit</button>
+          </div>
+        </form>
+    </div>
+    </section>
+    <footer class="foot">
+        <p>&copy; 2023 Mustee Tech Company</p>
+    </footer>
+   
+  </body>
+</html>
